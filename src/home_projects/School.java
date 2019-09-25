@@ -27,7 +27,7 @@ public static void tour() {
 	}
 }
 public static void math() {
-	
+	//question: would you like to do math facts, algebra, or take a math test?
 }
 public static void reading() {
 	
