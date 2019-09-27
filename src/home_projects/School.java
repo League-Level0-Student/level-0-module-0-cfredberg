@@ -27,7 +27,10 @@ public static void tour() {
 	}
 }
 public static void math() {
-	//question: would you like to do math facts, algebra, or take a math test?
+	String math = JOptionPane.showInputDialog("Would you like to do math facts, algebra, or take a math test?");
+	if(math.equalsIgnoreCase("math facts")) {
+		String multiple = JOptionPane.showInputDialog("Would you like to do times 1s, 2s, 3s, 4s, 5s, 6s, 7s, 8s, 9s, 10s, 11s, or 12s?");
+	}
 }
 public static void reading() {
 	
